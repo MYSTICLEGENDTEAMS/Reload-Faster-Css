@@ -1,0 +1,181 @@
+.openinghome {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    rgba(0,0,0,0.8),
+    rgba(0,0,0,0.8)
+    ),
+    url(https://images.unsplash.com/photo-1482858683229-74280d78908b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5530707633478a5be10d25f09dacf9ef&auto=format&fit=crop&w=700&q=60);
+  background-size: cover;
+  background-position: top;
+  position: relative;  
+  border-radius: 5px;
+}
+
+.page-heading {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #aaa;
+  white-space: nowrap;
+}
+
+.page-heading-primary {
+  display: block;
+  font-size: 3.125rem;
+  font-weight: 300;
+  color: #3498db;
+}
+
+.page-heading-secondary {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4.5px;
+}
+  
+.tablink {
+  background-color: #adadad;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 42px 14px 42px;
+  font-size: 17px;
+  width: 50%;
+}
+
+.hover1:hover {
+  background-color: #9c9c9c;
+}
+ .hover2:hover {
+  background-color: #9c9c9c;
+}
+ 
+ 
+  
+  
+  .columncentered { width: 100%; margin: 0 auto; }
+    
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #000;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: #fff;}
+#News {background-color: #fff;}
+  
+  @media only screen and (min-width: 321px) and (max-width: 480px), only screen and (min-device-width: 321px) and (max-device-width: 480px) {
+.hover1 {font-size:9px;}
+.hover2 {font-size:9px;}
+}
+
+  body[data-light-mode="dark"] .tabcontent {
+  color: #fff;   background-color: #000!important;}
+  
+    body[data-light-mode="dark"] .tablink {
+  background-color: #888; border: 2px solid #fff;}
+ 
+   body[data-light-mode="dark"] #Home  {
+   background-color: #000!important;}
+  
+   body[data-light-mode="dark"] #News  {
+   background-color: #000!important;}
+  
+  body[data-light-mode="dark"] hr {
+   background-color: #fff!important;}
+  
+   body[data-light-mode="dark"] .card-body {
+   background-color: #000!important;}
+  
+     body[data-light-mode="dark"] .card {
+   background-color: #000!important;}
+  
+  
+  
+  .fadeinscroll {
+  opacity: 0;
+}
+  
+.arrowanimation {
+  text-align: center;
+  margin-top:5px;
+  line-height:0.2pt;
+}
+.bounceanimation {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+  
+.card-wrapper {
+  margin: 5% 0;
+}
+
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 20vw; /* note i used vw not px for better responsive */
+  height: 20vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+ 
+ 
+.avatar {
+  border: 0.3rem solid rgba(#fff, 0.3);
+  margin-top: -6rem;
+  margin-bottom: 1rem;
+  max-width: 9rem;  
+}
+  .onecolumn {
+  left: -60%;
+  width: 120%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  clear: both;
+}
+  
+  .litenope { line-height: 0.625; text-align: center;}
+
+input[type=email] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #24ffc1;
+    border-radius: 5px;
+  
+}
